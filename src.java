@@ -58,7 +58,7 @@ public class MaxVertexDisjointPaths implements GraphCharacteristic {
         for (int v = 0; v < n; v++) {
             int v_in = v * 2;
             int v_out = v * 2 + 1;
-            int capacity = (v == sIndex || v == tIndex) ? INF : 1;
+            int capacity = 1;
             addEdge(flowGraph, v_in, v_out, capacity);
         }
 
