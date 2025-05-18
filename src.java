@@ -9,7 +9,7 @@ import java.util.*;
 
 public class MaxVertexDisjointPaths implements GraphCharacteristic {
 
-    private static final int INF = Integer.MAX_VALUE / 2;
+    private static final int INF = 1_000_000;
 
     @Override
     public int run(Graph graph) {
