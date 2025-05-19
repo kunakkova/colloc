@@ -1,0 +1,34 @@
+{
+  "edgeCount": 1,
+  "edgeList": [
+    {
+      "color": "GRAY",
+      "label": "",
+      "source": 1,
+      "target": 1,
+      "weight": 0
+    }
+  ],
+  "id": "a280b859-4ad2-43b4-8cfb-3f669896492b",
+  "isDirect": true,
+  "isNamed": false,
+  "vertexCount": 2,
+  "vertexList": [
+    {
+      "color": "RED",
+      "id": 1,
+      "label": "1",
+      "weight": 12,
+      "xCoordinate": 199,
+      "yCoordinate": 271
+    },
+    {
+      "color": "GRAY",
+      "id": 2,
+      "label": "2",
+      "weight": 3,
+      "xCoordinate": 441,
+      "yCoordinate": 270
+    }
+  ]
+}
